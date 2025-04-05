@@ -1,0 +1,323 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+    text-decoration: underline;
+}
+
+.envelope {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.dude {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    padding: 15px 20px;
+    color: white;
+}
+
+.contact   {
+    display: flex;
+    align-items: center;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* About Section */
+#about {
+    display: flex;
+    align-items: center; /* Align image and text side by side */
+    justify-content: start;
+    padding: 40px 20px;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* About Section Layout */
+#about {
+    display: flex;
+    align-items: center;
+    padding: 40px 60px;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* About Section Layout */
+#about {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: start; /* Align items to the left */
+    background-color: #f4f4f4; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 40px 100px;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Profile Picture */
+#about img {
+    width: 300px; /* Adjust the size */
+    height: 300px;
+    border-radius: 10px; /* Keep it square */
+    object-fit: cover;
+    margin-right: 40px; /* Space between image and text */
+}
+
+/* About Info Container */
+.about-info {
+    display: grid;
+    flex-direction: row;
+}
+
+/* Name Styling */
+#about h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+/* Description Text */
+.about-text {
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    max-width: 600px;
+}
+
+#skills h2 {
+    font-size: 28px;
+    color: purple;
+    max-width: 600px;
+    left: 15%;
+    position: relative;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: left;
+    margin-left: 250px;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.skill {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill:nth-child(4) img {  
+    max-width: 60px; 
+    max-height: 60px; 
+    object-fit: contain; /* Prevents distortion */
+    padding-bottom: 5px; /* Adjust if needed */
+}
+
+.skill img {
+    width: 50px;
+}
+
+#projects h2 {
+    font-size: 28px;
+    color: purple;
+    max-width: 600px;
+    left: 15%;
+    position: relative;
+}
+#projects .project1 {
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+    left: 16%;
+    position: relative;
+}
+
+#projects p {
+    font-size: 16px;
+    color: black;
+    max-width: 800px;
+    left: 17%;
+    position: relative;
+}
+
+#projects .project2 {
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+    left: 16%;
+    position: relative;
+}
+
+#recommendations h2 {
+    font-size: 28px;
+    color: purple;
+    max-width: 600px;
+    left: 15%;
+    position: relative;
+}
+
+#recommendation-container {
+    display: flex; /* Enables horizontal layout */
+    gap: 20px; /* Adds space between the boxes */
+    justify-content: center; /* Centers the boxes horizontally */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.recommendation-box1 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Unique styles for different boxes */
+.recommendation-box2 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    border-left: 5px solid #28a745; /* Green border */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-box3 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    border-left: 5px solid #dc3545; /* Red border */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#new-recommendation {
+    margin-top: 50px;
+    margin-bottom: 50px; width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    left: 15%;
+    position: relative;
+
+}
+
+.submit-btn {
+    left: 15%;
+    position: relative;
+}
+
+#new-recommendation input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#new-recommendation textarea {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#new-recommendation button {
+    background-color: purple;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#new-recommendation button:hover {
+    background-color: darkpurple;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #6a008a; /* Adjust color as needed */
+}
+
+footer img {
+    width: 50px; /* Adjust size */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+footer img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section with Profile Name -->
+    <header>
+    <div class="profile"> 
+       <div class="profile-name">JEEPALEM SHANMUKHA SRINIVAS</div>
+       <div class="mail"> <img class="envelope" src="images/envelope.png">shannureddy91@gmail.com</div>
+       <div class="contact">+91 9502165047</div>
+    </div>
+        <nav>
+            <ul>
+                <li><a href="#about" class="link-11">About</a></li>
+                <li><a href="#projects" class="link-11">Project Details</a></li>
+                <li><a href="#skills" class="link-11">Skills</a></li>
+                <li><a href="#recommendations" class="link-11">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <!-- About Me Section -->
+<section id="about">
+    <img src="images/searching.png" alt="Profile Image">
+    <div class="about-info">
+        <h2 class="about-name">Hi, I'm Jeepalem Shanmukha Srinivas</h2>
+        <p class="about-text">
+            I am a passionate web developer with expertise in HTML, CSS, and JavaScript. 
+            I love creating interactive and user-friendly websites that enhance user experience. 
+            Currently, I am learning advanced frameworks to expand my skills.
+        </p>
+    </div>
+</section>
+
+    <!-- Skills Section -->
+<section id="skills">
+    <h2 class="skills">Skills</h2>
+    <div class="skill-list">
+        <div class="skill">
+            <img src="images/html-logo.webp" alt="HTML Logo">
+            <span>HTML</span>
+            <p>Experience: 3 years</p>
+        </div>
+        <div class="skill">
+            <img src="images/css-logo.webp" alt="CSS Logo">
+            <span>CSS</span>
+            <p>Experience: 3 years</p>
+        </div>
+        <div class="skill">
+            <img src="images/javascript-logo.webp" alt="JavaScript Logo">
+            <span>JavaScript</span>
+            <p>Experience: 2 years</p>
+        </div>
+        <div class="skill">
+            <img src="images/react-logo.webp" alt="React Logo">
+            <span>React</span>
+            <p>Experience: 1.5 years</p>
+        </div>
+        <div class="skill">
+            <img src="images/node-logo.webp" alt="Node.js Logo">
+            <span>Node.js</span>
+            <p>Experience: 1 year</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project1">Project 1:</div>
+        <p>Accurate Neoplasms Diagnosis :  Deep Learning insights from MRI data analysis</p>
+        <div class="project2">Project 2:</div>
+        <p>Enhancing IoT Security and Privacy through Decentralized Blockchain Techniques</p>
+    </section>
+
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div id="recommendation-container">
+            <div class="recommendation-box1">Great developer with amazing skills! Their ability to write clean, efficient, and well-structured code makes them stand out. Always eager to learn new technologies and implement innovative solutions. A true problem-solver and a valuable asset to any team!</div>
+            <div class="recommendation-box2">Very creative and hard-working! Continuously brings fresh ideas to the table and executes them with precision. Their dedication to delivering high-quality work is truly commendable. A passionate individual who never backs down from a challenge!"
+
+                Let me know if you'd like further tweaks!</div>
+            <div class="recommendation-box3">Highly recommended for web development projects! Possesses a deep understanding of modern web technologies and delivers responsive, user-friendly designs. Their attention to detail and problem-solving skills ensure every project is completed efficiently and to the highest standards.</div>
+        </div>
+        <input type="text" id="new-recommendation" placeholder="Add a recommendation">
+        <button class="submit-btn" onclick="addRecommendation()">Submit</button>
+    </section>
+    
+    <!-- Home Icon -->
+    <footer>
+        <div class="home-icon">
+        <img src="images/home.png" alt="Home Icon">
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
